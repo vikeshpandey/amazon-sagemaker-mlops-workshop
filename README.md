@@ -119,9 +119,10 @@ First, you need to execute a CloudFormation script to create all the components 
 
 1. Select the below to launch CloudFormation stack.
 
-Region| Launch
-------|-----
-US East (N. Virginia) | [![Launch MLOps solution in us-east-1](imgs/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AIWorkshop&templateURL=https://s3.amazonaws.com/aws-ai-ml-aod-latam/mlops-workshop/m.yml)
+Region   |   Launch   |   Environment   |   
+------   |   -----   | -----   |    
+US East (N. Virginia)  |   [![Launch MLOps solution in us-east-1](imgs/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AIWorkshop&templateURL=https://s3.amazonaws.com/aws-ai-ml-aod-latam/mlops-workshop/m.yml)   |   SageMaker Notebook Instances   |
+US East (N. Virginia)   |   setup-without-notebook-instances.yml   |   SageMaker Studio   |
 
 1. Then open the Jupyter Notebook instance in Sagemaker and start doing the exercises:
 
